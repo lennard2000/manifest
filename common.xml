@@ -5,13 +5,11 @@
 
         <!-- OP-TEE gits -->
         <project path="optee_client"         name="OP-TEE/optee_client.git" />
-        <project path="optee_os"             name="OP-TEE/optee_os.git" />
         <project path="optee_ftpm"           name="OP-TEE/optee_ftpm.git" />
         <project path="optee_test"           name="OP-TEE/optee_test.git" />
 
         <!-- linaro-swg gits -->
         <project path="linux"                name="linaro-swg/linux.git"                  revision="optee" clone-depth="1" />
-        <project path="optee_examples"       name="linaro-swg/optee_examples.git" />
 
         <!-- buildroot git -->
         <project path="buildroot"            name="buildroot/buildroot.git"               revision="refs/tags/2024.05" clone-depth="1" />
