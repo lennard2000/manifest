@@ -8,6 +8,9 @@
                 <linkfile src="hikey960.mk" dest="build/Makefile" />
         </project>
 
+        <project path="optee_os"             name="OP-TEE/optee_os.git" />
+        <project path="optee_examples"       name="linaro-swg/optee_examples.git" />
+
         <!-- linaro-swg gits -->
         <project path="patches_hikey"         name="linaro-swg/patches_hikey.git"             revision="d9c07f0ac0ce5fe57d367be82b8673aae8e81e96" />
 

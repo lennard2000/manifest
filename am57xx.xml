@@ -2,6 +2,9 @@
 <manifest>
         <remote name="ti" fetch="git://git.ti.com" />
 
+        <project path="optee_os"             name="OP-TEE/optee_os.git" />
+        <project path="optee_examples"       name="linaro-swg/optee_examples.git" />
+
         <include name="common.xml" />
         <project path="build"          name="OP-TEE/build.git">
                 <linkfile src="am57xx.mk" dest="build/Makefile" />

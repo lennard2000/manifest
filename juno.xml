@@ -7,6 +7,9 @@
                 <linkfile src="juno.mk" dest="build/Makefile" />
         </project>
 
+        <project path="optee_os"             name="OP-TEE/optee_os.git" />
+        <project path="optee_examples"       name="linaro-swg/optee_examples.git" />
+
         <project path="trusted-firmware-a"   name="TF-A/trusted-firmware-a.git"           revision="refs/tags/v2.6" clone-depth="1" remote="tfo" />
         <project path="u-boot"               name="u-boot/u-boot.git"                     revision="refs/tags/v2018.03" clone-depth="1" />
 </manifest>

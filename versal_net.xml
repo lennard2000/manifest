@@ -5,7 +5,11 @@
                 <linkfile src="versal_net.mk" dest="build/Makefile" />
         </project>
 
-	<remove-project                         name="linaro-swg/linux.git" />
+        <project path="optee_os"             name="OP-TEE/optee_os.git" />
+        <project path="optee_examples"       name="linaro-swg/optee_examples.git" />
+
+
+        <remove-project                         name="linaro-swg/linux.git" />
 
 	<!-- Xilinx gits -->
         <project path="arm-trusted-firmware"	name="ARM-software/arm-trusted-firmware.git"	revision="refs/tags/lts-v2.10.12" clone-depth="1" />

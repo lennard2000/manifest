@@ -5,6 +5,10 @@
 			<linkfile src="versal2.mk" dest="build/Makefile" />
 	</project>
 
+	<project path="optee_os"             name="OP-TEE/optee_os.git" />
+	<project path="optee_examples"       name="linaro-swg/optee_examples.git" />
+
+
 	<remove-project                         name="linaro-swg/linux.git" />
 
 	<!-- AMD Gits pointing to latest release -->

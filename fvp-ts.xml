@@ -5,6 +5,9 @@
         <remote name="arm-gitlab" fetch="https://git.gitlab.arm.com" />
         <remote name="kernel-org" fetch="https://git.kernel.org" />
 
+        <project path="optee_os"             name="OP-TEE/optee_os.git" />
+        <project path="optee_examples"       name="linaro-swg/optee_examples.git" />
+
         <!-- OP-TEE gits -->
         <!-- Need to remove and re-add to replace Makefile symlink -->
         <remove-project path="build"                    name="OP-TEE/build.git" />

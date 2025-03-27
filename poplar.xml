@@ -4,6 +4,10 @@
         <remote name="denx"     fetch="https://source.denx.de" />
 
         <include name="common.xml" />
+
+        <project path="optee_os"             name="OP-TEE/optee_os.git" />
+        <project path="optee_examples"       name="linaro-swg/optee_examples.git" />
+
         <project path="build"                name="OP-TEE/build.git" >
                 <linkfile src="poplar.mk" dest="build/Makefile" />
         </project>
